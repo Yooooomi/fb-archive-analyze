@@ -4,36 +4,6 @@ import glob
 from os import path
 import emoji
 import math
-
-# import functools
-# def on_add_msg(func):
-#     func.__wrapped__ = on_add_msg
-#     @functools.wraps(func)
-#     def fn(*args, **kwargs):
-#         return func(*args, **kwargs)
-#     return fn
-
-# def on_add_emoji(func):
-#     func.__wrapped__ = on_add_emoji
-#     @functools.wraps(func)
-#     def fn(*args, **kwargs):
-#         return func(*args, **kwargs)
-#     return fn
-
-# def on_add_start(func):
-#     func.__wrapped__ = on_add_start
-#     @functools.wraps(func)
-#     def fn(*args, **kwargs):
-#         return func(*args, **kwargs)
-#     return fn
-
-# def on_set_first_last(func):
-#     func.__wrapped__ = on_set_first_last
-#     @functools.wraps(func)
-#     def fn(*args, **kwargs):
-#         return func(*args, **kwargs)
-#     return fn
-
 import plugins
 
 class Message():
